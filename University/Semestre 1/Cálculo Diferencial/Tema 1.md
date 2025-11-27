@@ -30,4 +30,4 @@ $$ f(x) = \begin{cases} 0, & x < 0 \\ x, & x \geq 0 \end{cases} $$
 ## Limites
 ¿Qué es un limite?
 
-note:  que pasa en la función cunado nos acercamos a un valor
+es lo que pasa en la función cunado nos acercamos a un valor
