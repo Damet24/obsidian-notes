@@ -15,3 +15,5 @@ algunos tipos de funciones:
 * Exponencial: $f(n) = 2^n$
 * Factorial: $f(n) = n!$
 
+nota:
+Si el exponente de la variable(independiente) es 1 es una función lineal
