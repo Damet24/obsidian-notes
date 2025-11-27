@@ -19,10 +19,10 @@ nota:
 Si el exponente de la variable(independiente) es 1 es una función lineal
 
 Función sigmoide:
-$$ a(x) = {1 \over 1 + s^-x} $$
+$$ \sigma (x) = {1 \over 1 + e^-x} $$
 Función hiperbólica
 $$ f(x) = tanh(x) = { e^x - e^-x \over e^x + e^-x}$$
 
  
 ReLU (Rectifiend Ilnear Unit)
-$$ f(x) = \begin{cases} 0, & x < 0 \\ x, & x \geq 0 \\ y, y \pm 0 \end{cases} $$
+$$ f(x) = \begin{cases} 0, & x < 0 \\ x, & x \geq 0 \end{cases} $$
