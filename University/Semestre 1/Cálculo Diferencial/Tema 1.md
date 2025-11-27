@@ -1,4 +1,4 @@
-## ¿Que es una función?
+## ¿Qué es una función?
 Es una regla que asigna exactamente un elemento de un conjunto con exactamente otro elemento de otro conjunto.
 
 normalmente se usan las letras f, g o h para nombrar funciones
@@ -26,3 +26,8 @@ $$ f(x) = tanh(x) = { e^x - e^-x \over e^x + e^-x}$$
  
 ReLU (Rectifiend Ilnear Unit)
 $$ f(x) = \begin{cases} 0, & x < 0 \\ x, & x \geq 0 \end{cases} $$
+
+## Limites
+¿Qué es un limite?
+
+note:  que pasa en la función cunado nos acercamos a un valor
