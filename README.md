@@ -1,6 +1,4 @@
 # obsidian-notes
 
 
-Prueba para obsidian
-
-prueba
+Repositorio principal con todas mi notas de obsidian
