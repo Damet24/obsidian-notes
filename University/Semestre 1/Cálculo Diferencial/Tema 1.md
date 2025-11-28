@@ -68,22 +68,17 @@ Las funciones se clasifican según la forma de su expresión algebraica, lo cual
 Algunas funciones no se clasifican solo por potencias, sino por su **comportamiento específico**, especialmente en IA.
 
 ---
-
 ### 🔹 Función Sigmoide
 $$
 \sigma(x) = \frac{1}{1 + e^{-x}}
 $$
-
 - Produce valores entre **0 y 1**
 - Muy usada en:
     - Redes neuronales
     - Probabilidades
 - Tiene forma de **S**
-
 ---
-
 ### 🔹 Función Hiperbólica (Tanh)
-
 $$
 f(x) = \tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}  
 $$
@@ -92,9 +87,7 @@ $$
 - Se usa en:
     - Redes neuronales
     - Procesamiento de señales
-
 ---
-
 ### 🔹 Función ReLU (Rectified Linear Unit)
 $$
 f(x) =  
@@ -141,7 +134,7 @@ $$
 Los ejemplos son esenciales para visualizar cómo se comportan las funciones y los límites en casos reales.
 
 - Ejemplo referenciado:  
-    **[[Ejemplo Tema 1]]**
+    **[[Ejemplo 1 Tema 1]]**
 - Sirven para:
     - Ver cómo varía f(x)
     - Interpretar el concepto de límite gráficamente
@@ -163,13 +156,5 @@ Los ejemplos son esenciales para visualizar cómo se comportan las funciones y l
         son claves en inteligencia artificial.
 - Un **límite** describe qué ocurre con una función cuando la variable **se acerca a un 
 - Un **polinomio** es una suma de potencias de una variable.
-    
 - Los **ejemplos** permiten comprender el comportamiento real de las funciones.
-    
-
 ---
-
-Si quieres, en el siguiente paso puedo:  
-✅ Convertir esto en **tarjetas de active recall (pregunta–respuesta)**  
-✅ O prepararte un **resumen tipo formulario para examen**  
-✅ O hacerlo en versión **PDF de estudio**.
