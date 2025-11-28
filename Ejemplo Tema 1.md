@@ -9,4 +9,11 @@ b) Calcula $f({1\over 3})$
 
 
 1.Dominio:
-$$ D_f = \r
+$$
+\begin{aligned}
+D_f &= \mathbb{R}\\
+D_f &= (-\infty, \infty)\\
+D_f &= \{ t | -\infty < t < \infty \}
+\end{aligned}
+$$
+2.Rango(imagen)
