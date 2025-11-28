@@ -26,7 +26,6 @@ y &\ge -8 \\
 [-8&, \infty]
 \end{align}
 $$
-
 **Ejemplo 2.** Evalúa:
 $$ 
 \lim_{x \to 2} { x^2 + 3x - 10 \over x^2 + x - 6}
