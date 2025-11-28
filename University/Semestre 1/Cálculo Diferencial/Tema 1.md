@@ -35,3 +35,5 @@ es lo que pasa en la función cunado nos acercamos a un valor
 
 > Nota:
 > polinomio: $a_1x^n+a_2x^n...+a_nx$
+
+Ejemplo: [[Ejemplo Tema 1]] 

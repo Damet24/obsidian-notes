@@ -17,3 +17,11 @@ D_f &= \{ t | -\infty < t < \infty \}
 \end{aligned}
 $$
 2.Rango(imagen)
+$$
+\begin{align}
+{y+8\over 3 }&\ge 0 \\
+y + 8 &\ge 0 \\
+y &\ge -8 \\
+[-8&, \infty]
+\end{align}
+$$
