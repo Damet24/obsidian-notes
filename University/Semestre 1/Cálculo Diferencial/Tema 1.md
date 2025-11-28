@@ -134,7 +134,7 @@ $$
 Los ejemplos son esenciales para visualizar cómo se comportan las funciones y los límites en casos reales.
 
 - Ejemplo referenciado:  
-    **[[Ejemplo 1 Tema 1]]**
+    **[[Ejemplo Tema 1]]**
 - Sirven para:
     - Ver cómo varía f(x)
     - Interpretar el concepto de límite gráficamente
