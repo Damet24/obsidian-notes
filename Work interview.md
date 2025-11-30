@@ -33,4 +33,4 @@ Te recomiendo hacerlas así (suenan más profesionales):
 - _¿Qué es lo que más valoran los colaboradores de trabajar en esta empresa?_
 - _¿La empresa cuenta con planes de formación, certificaciones o crecimiento interno?_
 - _¿Cómo está conformado el equipo técnico actualmente?_
-- _¿Cuáles serían los siguientes pasos del proceso de selección?_
+- ¿Cuáles serían los siguientes pasos del proceso de selección?
