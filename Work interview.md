@@ -3,6 +3,14 @@
 Soy desarrollador de software con enfoque en backend y experiencia construyendo sistemas escalables y de alto tráfico. He trabajado principalmente con Node.js, .NET y servicios en la nube con AWS. Me gusta diseñar soluciones eficientes, enfocadas en rendimiento y estabilidad.  
 He participado tanto en proyectos fullstack como en backend puro, incluyendo sistemas en tiempo real con WebSockets. Me considero una persona resiliente, colaborativa y con gran capacidad de aprendizaje continuo.
 
+desarrollado de software
+enfoque backend
+experiencia construyedo sistemas escalables y de alto trafico
+node.js .net y sevicios en la nube con AWS
+me gusta diseñar  soluciones eficientes, enfocadas en rendimiento y estabilidad.  
+participado en todo tipo de proyectos full stack como en backend puro inclyendo sistemas en tiempo real con websockets
+considero resiliente colaborativo y gran capacidad de aprendizaje
+
 ### ¿Dónde te ves en cinco años?
 Me veo como un ingeniero backend consolidado en la industria, trabajando en sistemas de alto rendimiento. Me interesa mucho el desarrollo de software de bajo nivel para optimizar flujos, por eso actualmente estudio Rust y C++ como hobby.  
 En cinco años quiero aportar este conocimiento a las empresas para mejorar eficiencia, rendimiento y arquitectura de sus sistemas.
