@@ -3,7 +3,6 @@
 Soy desarrollador de software con enfoque en backend y experiencia construyendo sistemas escalables y de alto tráfico. He trabajado principalmente con Node.js, .NET y servicios en la nube con AWS. Me gusta diseñar soluciones eficientes, enfocadas en rendimiento y estabilidad.  
 He participado tanto en proyectos fullstack como en backend puro, incluyendo sistemas en tiempo real con WebSockets. Me considero una persona resiliente, colaborativa y con gran capacidad de aprendizaje continuo.
 
-
 ### ¿Dónde te ves en cinco años?
 Me veo como un ingeniero backend consolidado en la industria, trabajando en sistemas de alto rendimiento. Me interesa mucho el desarrollo de software de bajo nivel para optimizar flujos, por eso actualmente estudio Rust y C++ como hobby.  
 En cinco años quiero aportar este conocimiento a las empresas para mejorar eficiencia, rendimiento y arquitectura de sus sistemas.
@@ -12,6 +11,9 @@ En cinco años quiero aportar este conocimiento a las empresas para mejorar efic
 **Fortalezas**: Soy una persona creativa, resiliente y me mantengo sereno bajo presión. Trabajo muy bien en equipo, disfruto enseñar y aprender de mis compañeros. Me adapto rápido a nuevos entornos y tecnologías, lo que me permite integrarme fácilmente a distintos equipos de trabajo.
 
 **Debilidades**: A veces tiendo a hacer sobre-ingeniería en el código, intentando anticipar demasiados escenarios futuros que quizá nunca ocurran. Esto en algunos casos puede volver la solución más compleja de lo necesario. Con el tiempo he aprendido a priorizar soluciones simples, enfocadas en los requerimientos reales del negocio, y a refactorizar solo cuando los casos realmente aparecen.
+
+## Errores y que aprendí
+primeros años, suponía cosas, y no realizaba las preguntas adecuadas
 
 ### Desafío que has superado
 Uno de mis mayores desafíos fue desarrollar un sistema de bingo en tiempo real para más de 100 mil usuarios concurrentes. Implementamos el backend en Node.js con MySQL, un servidor de WebSockets para la sincronización en tiempo real y el frontend en HTML y JavaScript puro.  
