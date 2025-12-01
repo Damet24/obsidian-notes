@@ -15,6 +15,12 @@ considero resiliente colaborativo y gran capacidad de aprendizaje
 Me veo como un ingeniero backend consolidado en la industria, trabajando en sistemas de alto rendimiento. Me interesa mucho el desarrollo de software de bajo nivel para optimizar flujos, por eso actualmente estudio Rust y C++ como hobby.  
 En cinco años quiero aportar este conocimiento a las empresas para mejorar eficiencia, rendimiento y arquitectura de sus sistemas.
 
+ingeniero backend consolidado en la industria
+sistemas de alto rendimiento
+instares en software de bajo nivel para optimizar plujos
+estudiando rust y c++ como hobby
+cinco años quiero aportas este conocimiento a las empresas para mejorar eficiencia rendimiento y arquitectura de sus sistemas
+
 ### Fortalezas y debilidades
 **Fortalezas**: Soy una persona creativa, resiliente y me mantengo sereno bajo presión. Trabajo muy bien en equipo, disfruto enseñar y aprender de mis compañeros. Me adapto rápido a nuevos entornos y tecnologías, lo que me permite integrarme fácilmente a distintos equipos de trabajo.
 
