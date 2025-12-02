@@ -14,52 +14,33 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ### 🏗 Arquitectura y Trade-offs
 
 - **Serverless, event-driven**
-    
 - Sin gestión de servidores
-    
 - Stateless por diseño
-    
 - Integración nativa con S3, SQS, API Gateway, DynamoDB
-    
 - Trade-off principal: **cold starts vs simplicidad operacional**
-    
 
 **Cuándo usar:**
-
 - APIs livianas
-    
 - Procesamiento de eventos
-    
 - ETL simple
-    
 - Automatizaciones
-    
 
 **Cuándo NO usar:**
 
 - Procesos largos > 15 min
-    
 - Workloads de baja latencia constante
-    
 - Necesidad de estado persistente en memoria
-    
 
 ---
 
 ### ⚡ Performance y Costos
 
 - Cold starts (Java > Python > Node)
-    
 - Se mitiga con:
-    
     - SnapStart
-        
     - Provisioned Concurrency
-        
 - Cobro por:
-    
     - Duración en ms
-        
     - Memoria asignada
         
 - Escala automáticamente por concurrencia
@@ -135,15 +116,10 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
     
 
 ---
-
 ### ❌ Errores Comunes
-
 - No aplicar rate limiting
-    
 - No versionar APIs
-    
-- No cachear endpoints críticos
-    
+- No cachear endpoints críticos    
 
 ---
 
@@ -152,42 +128,26 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ### 🏗 Arquitectura y Trade-offs
 
 - Control total del sistema
-    
 - Ideal para:
-    
     - Procesos largos
-        
     - Software legacy
-        
     - Software no compatible con serverless
-        
 - Trade-off:
-    
     - Alta gestión operacional
-        
 
 ---
 
 ### ⚡ Performance y Costos
 
 - Tipos de instancias:
-    
     - General (t3, t4g)
-        
     - Compute (c)
-        
     - Memory (r)
-        
 - Costos:
-    
     - On-Demand
-        
     - Reserved
-        
     - Spot (barato pero volátil)
-        
 - Auto Scaling + ALB
-    
 
 ---
 
