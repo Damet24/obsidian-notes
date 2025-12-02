@@ -42,37 +42,26 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 - Cobro por:
     - Duración en ms
     - Memoria asignada
-        
 - Escala automáticamente por concurrencia
-    
 
 ---
 
 ### 🔐 Seguridad y Mantenibilidad
 
 - IAM Role por función
-    
 - Principle of Least Privilege
-    
 - VPC solo si es necesario (bases privadas)
-    
 - Logs automáticos en CloudWatch
-    
 - Observabilidad: X-Ray + métricas p95
-    
 
 ---
 
 ### ❌ Errores Comunes
 
 - Meter lógica pesada
-    
 - No controlar timeouts
-    
 - Usar Lambdas como monolitos
-    
 - Exponerlas sin API Gateway/Auth
-    
 
 ---
 
@@ -81,39 +70,27 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ### 🏗 Arquitectura y Trade-offs
 
 - Puerta de entrada REST/HTTP/WebSockets
-    
 - Throttling, caching, autenticación, versionado
-    
 - Trade-off:
-    
     - Más simple que ALB + EC2
-        
     - Más costoso en alto volumen
-        
 
 ---
 
 ### ⚡ Performance y Costos
 
 - Latencia mayor que ALB
-    
 - Caching reduce costos
-    
 - HTTP API es más barato que REST API
-    
 
 ---
 
 ### 🔐 Seguridad
 
 - IAM
-    
 - Cognito
-    
 - JWT / Authorizers
-    
 - WAF integrado
-    
 
 ---
 ### ❌ Errores Comunes
@@ -154,24 +131,17 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ### 🔐 Seguridad
 
 - Security Groups
-    
 - IAM Role por instancia
-    
 - Patching manual
-    
 - Acceso SSH controlado
-    
 
 ---
 
 ### ❌ Errores Comunes
 
 - Dejar EC2 siempre encendidas
-    
 - No usar ASG
-    
 - Accesos con claves hardcodeadas
-    
 
 ---
 
@@ -180,58 +150,39 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ### 🏗 Arquitectura y Trade-offs
 
 - Contenedores orquestados
-    
 - Dos tipos:
-    
     - **Fargate**: sin servidores
-        
     - **EC2 Mode**: más control
-        
 - Trade-off:
-    
     - Más complejo que Lambda
-        
     - Más predecible en costos
-        
 
 ---
 
 ### ⚡ Performance y Costos
 
 - Fargate cobra por:
-    
     - vCPU
-        
     - RAM
-        
     - Tiempo
-        
 - No hay cold start fuerte como Lambda
-    
 
 ---
 
 ### 🔐 Seguridad
 
-- IAM Task Role
-    
+- IAM Task Role    
 - Network Mode por task
-    
 - Load balancer integrado
-    
 - Secrets Manager
-    
 
 ---
 
 ### ❌ Errores Comunes
 
 - Usar ECS para jobs event-driven
-    
 - No separar servicios por dominio
-    
 - No configurar healthchecks
-    
 
 ---
 
@@ -240,54 +191,37 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ### 🏗 Arquitectura y Trade-offs
 
 - Object storage
-    
 - 11x9 de durabilidad
-    
 - Event-driven (triggers)
-    
 - No sirve para archivos que se editan en caliente
-    
 
 ---
 
 ### ⚡ Performance y Costos
 
 - Escalabilidad prácticamente infinita
-    
 - Storage tiers:
-    
     - Standard
-        
     - IA
-        
     - Glacier
-        
 - Transferencias pueden ser costosas
-    
 
 ---
 
 ### 🔐 Seguridad
 
 - Bucket Policies
-    
 - IAM
-    
 - Bloqueo de acceso público
-    
 - Encriptación SSE-S3 / SSE-KMS
-    
 
 ---
 
 ### ❌ Errores Comunes
 
 - Usarlo como base de datos
-    
 - Exponer buckets públicos
-    
 - No versionar objetos críticos
-    
 
 ---
 
@@ -296,58 +230,39 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ### 🏗 Arquitectura y Trade-offs
 
 - NoSQL totalmente administrado
-    
 - Lecturas por clave primaria ultrarrápidas
-    
 - Trade-off:
-    
     - No hay joins
-        
     - Modelo de datos rígido
-        
 - Event-driven con Streams
-    
 
 ---
 
 ### ⚡ Performance y Costos
 
 - Single digit ms latency
-    
 - Modos:
-    
     - On-Demand
-        
     - Provisioned
-        
 - DAX para cache in-memory
-    
 - Peligro de hot-partitions
-    
 
 ---
 
 ### 🔐 Seguridad
 
 - IAM
-    
 - KMS
-    
 - VPC Endpoints
-    
 - Fine-grained access
-    
 
 ---
 
 ### ❌ Errores Comunes
 
 - Mal diseño de keys
-    
 - Usarlo como SQL
-    
 - No planear crecimiento desde el inicio
-    
 
 ---
 
@@ -356,41 +271,28 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ### 🏗 Arquitectura
 
 - Control de acceso por:
-    
     - Users
-        
     - Roles
-        
     - Policies
-        
 - Base de toda la seguridad AWS
-    
 
 ---
 
 ### 🔐 Buenas Prácticas Clave
 
 - Nunca usar root
-    
 - Roles en vez de access keys
-    
 - Policy mínima necesaria
-    
 - MFA en cuentas críticas
-    
 - Separación prod / dev
-    
 
 ---
 
 ### ❌ Errores Comunes
 
 - Wildcards (`*`)
-    
 - Claves en repositorios
-    
 - Reusar roles para todo
-    
 
 ---
 
@@ -399,76 +301,52 @@ Puedes usar esto como **checklist mental para responder cualquier pregunta cerra
 ## ✅ SQS Standard
 
 - Entrega **al menos una vez**
-    
 - Puede haber:
-    
     - Duplicados
-        
     - Desorden
-        
 - Throughput: **virtualmente ilimitado**
-    
 
 ## ✅ SQS FIFO
 
 - Entrega **exactamente una vez**
-    
 - **Garantiza orden**
-    
 - TPS:
-    
     - 300 msg/s
-        
     - 3000 con batching
-        
 - Más caro
-    
 
 ---
 
 ### 🏗 Arquitectura y Trade-offs
 
 - Desacopla productores y consumidores
-    
 - Permite retries, DLQ, backpressure
-    
 - FIFO = orden y consistencia
-    
 - Standard = máxima escalabilidad
-    
 
 ---
 
 ### ⚡ Performance y Costos
 
-- Long polling reduce costos
-    
+- Long polling reduce costos    
 - Batching mejora TPS
-    
 - DLQ esencial
-    
 
 ---
 
 ### 🔐 Seguridad
 
 - IAM
-    
 - KMS
-    
 - Policies por cola
-    
 
 ---
 
 ### ❌ Errores Comunes
 
 - No usar DLQ
-    
 - No manejar idempotencia
-    
 - Suponer que no habrá duplicados
-    
 
 ---
 
@@ -480,35 +358,22 @@ Si te dicen algo como:
 
 Tu respuesta ideal debe tocar **SIEMPRE**:
 
-1. **Entrada** → API Gateway
-    
+1. **Entrada** → API Gateway    
 2. **Procesamiento liviano** → Lambda
-    
 3. **Procesamiento pesado** → ECS / EC2
-    
 4. **Asincronía** → SQS
-    
 5. **Persistencia** → DynamoDB / RDS (según caso)
-    
 6. **Archivos** → S3
-    
 7. **Seguridad** → IAM + VPC
-    
 
 Y justificar:
 
 - Por qué no todo en Lambda
-    
 - Por qué usar SQS
-    
 - Cuándo usar FIFO y cuándo Standard
-    
 - Costos
-    
 - Escalabilidad
-    
 - Tolerancia a fallos
-    
 
 ---
 
@@ -521,11 +386,8 @@ Puedo hacer contigo:
 ✅ Y te doy feedback **como evaluador técnico real** con puntaje 1–5 en:
 
 - Arquitectura
-    
 - Performance
-    
 - Seguridad
-    
 
 Si quieres, dime:  
 👉 **“Arranquemos con el simulacro de fase 1”**  
