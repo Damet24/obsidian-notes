@@ -1,14 +1,3 @@
-Perfecto, esta guía te la voy a estructurar **exactamente como te van a evaluar**:  
-✅ **Arquitectura y trade-offs**  
-✅ **Performance y costos**  
-✅ **Escalabilidad, mantenibilidad y seguridad**  
-✅ **Errores comunes en entrevistas**  
-✅ **Cuándo elegirlo vs cuándo NO**
-
-Puedes usar esto como **checklist mental para responder cualquier pregunta cerrada o abierta**.
-
----
-
 # 🟠 AWS Lambda
 
 ### 🏗 Arquitectura y Trade-offs
@@ -375,20 +364,8 @@ Y justificar:
 - Escalabilidad
 - Tolerancia a fallos
 
----
 
-# ✅ Si quieres, siguiente paso MUY VALIOSO
 
-Puedo hacer contigo:
-
-✅ Simulacro real de **5 preguntas cerradas tipo examen**  
-✅ Luego **2 preguntas abiertas tipo diseño de arquitectura**  
-✅ Y te doy feedback **como evaluador técnico real** con puntaje 1–5 en:
-
-- Arquitectura
-- Performance
-- Seguridad
-
-Si quieres, dime:  
-👉 **“Arranquemos con el simulacro de fase 1”**  
-y lo hacemos como si ya estuvieras en la entrevista. 🚀
+dynamodb
+Tráfico **alto pero predecible** + On-Demand → casi siempre significa:  
+👉 _“estamos pagando de más, podríamos ir a **Provisioned + auto scaling**”_.
